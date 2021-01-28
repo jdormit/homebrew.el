@@ -11,6 +11,9 @@ install thusly:
     :straight (homebrew :host github :repo "jdormit/homebrew.el"))
 #+end_src
 
+Otherwise you can clone this repo and add it to ~load-path~. If you do
+that, you'll also need to install the package dependencies, [[https://github.com/magnars/s.el][s.el]] and
+[[https://github.com/magit/with-editor][with-editor]].
 
 ** Commands
 - =homebrew-install=: Install a Homebrew package with completion
