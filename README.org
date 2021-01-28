@@ -16,13 +16,13 @@ that, you'll also need to install the package dependencies, [[https://github.com
 [[https://github.com/magit/with-editor][with-editor]].
 
 ** Commands
-- =homebrew-install=: Install a Homebrew package with completion
-- =homebrew-upgrade=: Upgrade an installed Homebrew package with
+- ~homebrew-install~: Install a Homebrew package with completion
+- ~homebrew-upgrade~: Upgrade an installed Homebrew package with
   completion
-- =homebrew-update=: Update the Homebrew installation
-- =homebrew-edit=: Edit an installed Homebrew package in the Emacs
+- ~homebrew-update~: Update the Homebrew installation
+- ~homebrew-edit~: Edit an installed Homebrew package in the Emacs
   instance with completion (=C-x #= to finish editing)
-- =homebrew-info=: Display general info about the Homebrew
+- ~homebrew-info~: Display general info about the Homebrew
   installation
-- =homebrew-package-info=: Display info about an installed Homebrew
+- ~homebrew-package-info~: Display info about an installed Homebrew
   package with completion
