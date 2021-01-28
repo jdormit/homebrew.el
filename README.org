@@ -3,7 +3,7 @@ This is a simple completion-driven Emacs interface to the [[https://brew.sh][Hom
 package manager]].
 
 ** Installation
-Not yet on Melpa. If you use [[https://github.com/jwiegley/use-package][=use-package=]] with [[https://github.com/raxod502/straight.el][=straight.el=]] you can
+Not yet on Melpa. If you use [[https://github.com/jwiegley/use-package][use-package]] with [[https://github.com/raxod502/straight.el][straight.el]] you can
 install thusly:
 
 #+begin_src emacs-lisp
