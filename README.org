@@ -1,0 +1,25 @@
+* Homebrew.el
+This is a simple completion-driven Emacs interface to the [[https://brew.sh][Homebrew
+package manager]].
+
+** Installation
+Not yet on Melpa. If you use [[https://github.com/jwiegley/use-package][=use-package=]] with [[https://github.com/raxod502/straight.el][=straight.el=]] you can
+install thusly:
+
+#+begin_src emacs-lisp
+  (use-package homebrew
+    :straight (homebrew :host github :repo "jdormit/homebrew.el"))
+#+end_src
+
+
+** Commands
+- =homebrew-install=: Install a Homebrew package with completion
+- =homebrew-upgrade=: Upgrade an installed Homebrew package with
+  completion
+- =homebrew-update=: Update the Homebrew installation
+- =homebrew-edit=: Edit an installed Homebrew package in the Emacs
+  instance with completion (=C-x #= to finish editing)
+- =homebrew-info=: Display general info about the Homebrew
+  installation
+- =homebrew-package-info=: Display info about an installed Homebrew
+  package with completion
