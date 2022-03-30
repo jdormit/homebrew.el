@@ -39,7 +39,7 @@
   :keymap '(("q" .  bury-buffer)))
 
 (with-eval-after-load 'evil
-  (evil-define-key 'normal homebrew-run-brew-minor-mode-map "q" #'bury-buffer))
+  (evil-define-key* 'normal homebrew-run-brew-minor-mode-map "q" #'bury-buffer))
 
 (defun homebrew--run-brew (subcmd &rest args)
   (let* ((name (format "brew-%s" subcmd))
